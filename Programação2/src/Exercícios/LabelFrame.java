@@ -22,7 +22,7 @@ public class LabelFrame extends JFrame {
 		add(label1);
 
 		// Construtor JLabel com string, Icon e argumentos de alinhamento
-		Icon bug = new ImageIcon(getClass().getResource("bug1.png"));
+		Icon bug = new ImageIcon(getClass().getResource("bug1.jpg"));
 		label2 = new JLabel("Labl with text and icon", bug, SwingConstants.LEFT);
 		label2.setToolTipText("This is label2");
 		add(label2);
